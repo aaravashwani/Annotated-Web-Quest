@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    background-color: lightskyblue;
+    font-family: sans-serif;
+}
+
+img {
+    height: 250px;
+}
+
+p {
+    background-color: lightblue;
+}
