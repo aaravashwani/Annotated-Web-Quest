@@ -1,13 +1,24 @@
-body {
-    text-align: center;
-    background-color: lightskyblue;
-    font-family: sans-serif;
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #f0e2d1;
+} 
+h1, h3, h6 {
+  text-align: center;
 }
-
-img {
-    height: 250px;
+.row {
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
 }
-
-p {
-    background-color: lightblue;
+.col {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 10px;
+  border-style: solid;
+  border-width: 5px;
+  transition: 0.3s;
+}
+.col:hover{
+  background-color: #e4c6a5;
 }
